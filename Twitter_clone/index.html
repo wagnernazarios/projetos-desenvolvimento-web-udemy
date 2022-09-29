@@ -1,13 +1,3 @@
-<?php 
-
-	$erro = isset($_GET['erro']) ? $_GET['erro'] : 0;
-
-
- ?>
-
-
-
-
 <!DOCTYPE HTML>
 <html lang="pt-br">
 	<head>
@@ -111,7 +101,7 @@
 
 
 						<!-- Modal -->
-					<div class="modal fade" class="<?= $erro == 1? 'modal-open' : '' ?>"  id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal fade" c  id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 					  <div class="modal-dialog" role="document">
 					    <div class="modal-content">
 					      <div class="modal-header">
@@ -155,14 +145,6 @@
 								</form> 
 
 
-								<?php 
-
-								if ($erro == 1) {
-									echo "<font color='#ff0000'>Usuario e/ou senha invalidos</font> ";
-								}
-
-
-								 ?>
 
 								<span class="forget">Não tem uma conta? <a href="inscrevase.php"><span class="signup">Inscreva-se</span></a></span>
 
@@ -180,7 +162,6 @@
 					    </div>
 					  </div>
 					</div>
-						<!--Fim do modal-->
 
 	      </div>
 
