@@ -1,0 +1,241 @@
+	    	body {
+	    		background: #999999;
+	    	}
+
+	    	.navbar-brand {
+	    		position: absolute;
+	    		left: 10%;
+	    		top: -10px;
+	    	}
+
+	    	.container {
+	    		margin-top: 30px;
+	    		width: 40%;
+	    		background: #fff;
+	    		height: 90vh;
+	    		border-radius: 20px;
+	    		display: flex;
+	    		flex-direction: column;
+	    		justify-content: center;
+	    		align-items: center;
+	    		box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+
+
+	    	}
+
+
+	    	.col-md-8 {
+	    		display: flex;
+	    		flex-direction: column;
+	    		align-items: center;
+	    	}
+
+	    	.top {
+	    		display: flex;
+	    		align-items: center;
+	    		justify-content: center;
+	    		margin-top: -65px
+	    	}
+
+	    	.fa-xmark {
+	    		position: absolute;
+	    		left: -90px;
+	    		top: -60px;
+	    		font-size: 1.3em;
+	    		color: #ccc;
+
+	    	}
+
+	    	.top svg {
+	    		margin-left: -20%;
+	    	}
+
+
+	    	.col-md-8 h3 {
+	    		font-size: 2.5em;
+	    		font-weight: 700;
+
+	    	}
+
+	    	.col-md-8 .h3-mobile {
+	    		display: none;
+	    		font-size: 2.5em;
+	    		font-weight: 700;
+
+	    	}
+
+	    	.btn {
+	    		border-radius: 25px;
+	    		height: 40px;
+	    		font-weight: bold;
+	    	}
+
+
+
+	    	.col-md-8 #login-google,
+	    	.apple {
+	    		width: 340px;
+	    		margin: 10px 0;
+
+	    	}
+
+
+	    	.col-md-8 .google {
+	    		width: 20px;
+	    		height: 20px;
+	    		margin: auto 0;
+	    		position: relative;
+	    		right: 10px;
+	    	}
+
+	    	.fa-apple {
+	    		font-size: 1.6em;
+	    		margin-right: 10px;
+	    	}
+
+	    	.apple {
+	    		margin-bottom: 5%;
+	    	}
+
+
+	    	.col-md-8 form {
+	    		margin-bottom: -10%;
+	    	}
+
+	    	.col-md-8 input {
+	    		width: 340px;
+	    		height: 50px;
+	    		border-radius: 15px;
+	    	}
+
+	    	.col-md-8 .btn-primary {
+	    		border-radius: 25px;
+	    		height: 40px;
+	    		width: 340px;
+	    		background: #03A9F4;
+	    		font-weight: bold;
+	    		margin: 5% 0;
+	    	}
+
+	    	.text {
+	    		position: absolute;
+	    		bottom: 7%;
+	    		text-align: center;
+	    		font-size: 1.2em;
+	    	}
+
+	    	.signin {
+	    		color: #03A9F4;
+	    	}
+
+
+
+
+
+	    	.close {
+	    		width: 100px;
+	    		height: 70px;
+	    	}
+
+
+	    	.btn-default {
+	    		width: 340px;
+	    	}
+
+
+
+
+	    	.google {
+	    		width: 20px;
+	    		height: 20px;
+	    		margin: auto 0;
+	    		position: relative;
+	    		right: 10px;
+	    	}
+
+	    	h4 {
+	    		text-align: center;
+	    		font-size: 2em;
+	    		font-weight: bold;
+	    	}
+
+	    	.modal-body {
+	    		margin-top: 5%;
+	    		height: 60vh;
+	    		display: flex;
+	    		flex-direction: column;
+	    		align-items: center;
+	    	}
+
+	    	.modal-body .apple {
+	    		margin-bottom: 50px;
+	    	}
+
+	    	.modal-body input {
+	    		width: 340px;
+	    		height: 40px;
+	    	}
+
+	    	.modal-body .btn-info {
+	    		width: 340px;
+	    	}
+
+	    	.modal-body .forget {
+	    		margin-top: 10%;
+	    	}
+
+
+
+
+
+	    	@media (min-width: 375px) and (max-width: 982px) {
+	    		.container {
+	    			border-radius: 0;
+	    			padding-top: 30px;
+	    			margin: 0;
+
+	    			width: 100%;
+	    			height: 100vh;
+	    			display: flex;
+	    			flex-direction: column;
+	    			justify-content: flex-start;
+	    			align-items: center;
+	    		}
+
+	    		.col-md-8 {
+	    			padding-top: 10%;
+	    		}
+
+	    		.col-md-8 h3 {
+	    			text-align: center;
+	    			display: none;
+	    		}
+
+	    		.container .h3-mobile {
+	    			display: block;
+	    			text-align: center;
+	    		}
+
+	    		#login-google,
+	    		.apple {
+	    			display: none;
+	    		}
+
+	    		.modal-body #login-google,
+	    		.modal-body .apple {
+	    			display: block;
+	    		}
+	    	
+
+	    	.input {
+	    		border-radius: 0px;
+	    	}
+
+	    	
+
+	    	.text {
+	    		position: absolute;
+	    		bottom: 10px;
+	    	}
+
+	    }

@@ -29,7 +29,7 @@
 				overflow-x: hidden;
 			}
 
-			.h1 {
+			.col-md-7 .h1 {
 				margin-left: 10%;
 				font-size: 7em;
 				font-weight: 900;
@@ -88,6 +88,9 @@
 			}
 
 
+
+
+
 			.fa-apple {
 				font-size: 1.3em;
 			}
@@ -140,6 +143,7 @@
 			.footer span {
 				font-size: 1em;
 				margin: 10px;
+				font-weight: 500;
 			}
 
 			.footer span:hover {
@@ -147,10 +151,12 @@
 				text-decoration: underline;
 			}
 
+
+
 			.close {
+
 				width: 100px;
 				height: 70px;
-
 			}
 
 
@@ -161,7 +167,7 @@
 				align-items: center;
 			}
 
-			.modal-body h4 {
+			.modal-title {
 				text-align: center;
 				font-size: 3em;
 				font-weight: 900;
@@ -207,27 +213,7 @@
 
 
 
-
-
-			@media (min-width: 1500px) {
-
-				.col-md-7 .h1 {
-					font-size: 7em;
-
-				}
-			}
-
-			@media (min-width: 1100px) {
-				.col-md-7 .h1 {
-					font-size: 5em;
-					width: 100%;
-				}
-			}
-
 			@media (min-width: 375px) and (max-width: 982px) {
-
-
-
 
 
 				img {
@@ -235,6 +221,7 @@
 				}
 
 				.col-md-7 {
+					height: 100vh;
 					display: flex;
 					flex-direction: column;
 					justify-content: center;
@@ -246,24 +233,57 @@
 
 				.col-md-7 .h1 {
 					text-align: center;
-					font-size: 4em;
+					font-size: 3em;
 					font-weight: 900;
 					margin: auto;
 				}
 
+
+
 				.col-md-7 h3 {
-					font-size: 2em;
+					text-align: center;
+					font-size: 3em;
 					margin: 5% 0;
 				}
 
 				.footer {
 					margin-top: 10%;
+					font-size: .7em;
 				}
 
 				h4 {
 					text-align: center;
 					font-weight: 900;
 					font-size: 2.5em;
+				}
+
+				.details {
+					font-size: .8em;
+					text-align: center;
+				}
+
+			}
+
+
+			@media (min-width: 1100px) {
+				.col-md-7 {
+					padding: 3%;
+				}
+
+				.col-md-7 .h1 {
+					font-size: 5em;
+					width: 100%;
+					padding: 2% 0;
+					margin-right: 10px;
+
+				}
+			}
+
+
+
+			@media (min-width: 1440px) {
+				.col-md-7 {
+					padding: 3%;
 				}
 
 
