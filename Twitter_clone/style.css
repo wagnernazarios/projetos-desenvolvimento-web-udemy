@@ -1,4 +1,4 @@
-			*{
+			* {
 				margin: 0;
 				padding: 0;
 				box-sizing: border-box;
@@ -7,35 +7,35 @@
 				font-family: 'Roboto', sans-serif;
 			}
 
-			body{
+			body {
 				min-height: 100vh;
 				width: 100%;
 			}
 
-			img{
-				margin-left:-40px ;
+			img {
+				margin-left: -40px;
 				margin-right: -60px;
 				height: 100vh;
 				width: 115%
 			}
 
-			.col-md-7{
+			.col-md-7 {
 				display: flex;
 				margin: auto;
 				flex-direction: column;
 				justify-content: center;
 				align-items: flex-start;
-			    padding: 2.5% 4.5% ;	
-			    overflow-x: hidden;
-			 }
+				padding: 2.5% 4.5%;
+				overflow-x: hidden;
+			}
 
-			 .h1{ 
+			.h1 {
 				margin-left: 10%;
 				font-size: 7em;
 				font-weight: 900;
 				color: #000;
-				padding-top:5%; 	
-				padding-bottom: 5%;			
+				padding-top: 5%;
+				padding-bottom: 5%;
 				transform: scaleY(0.8);
 				transform: scalex(1.2);
 
@@ -43,7 +43,7 @@
 
 			}
 
-			h3{
+			h3 {
 				font-weight: bold;
 				font-size: 4rem;
 				margin-bottom: 5%;
@@ -52,99 +52,51 @@
 
 			}
 
-			svg{
-			width: 65px;
-			height: 65px;
-			
+			svg {
+				width: 65px;
+				height: 65px;
+
 			}
-			.details{
+
+			.details {
 				width: 345px;
 				font-size: 0.9em;
 
 			}
 
-			.text{
+			.text {
 				color: #03A9F4;
 			}
 
-			.btn{
+			.btn {
 				width: 340px;
 				font-size: 1.2em;
 				padding: 7px;
 				border-radius: 50px;
 				font-weight: bold;
-	
-				
+
+
 			}
 
-			.btn-default{
+			.btn-default {
 				margin: 5px 0;
 			}
 
-			.btn-default a{
+			.btn-default a {
 				text-decoration: none;
 				color: #000;
 			}
 
 
-
-
-
-		/*	#login-google{
-				display: flex;
-				flex-direction: row;
-				align-items: center;
-				justify-content: space-between;
-				font-size: 0.9em;
-				padding: 0 4px;
-
+			.fa-apple {
+				font-size: 1.3em;
 			}
 
-
-			#login-google span{
-				font-size: 1.1em;
-				position: relative;
-				top: 5px;
-				padding: auto;
-				font-weight: 700;
-				text-align: left;
-			}	
-			*/
-
-
-			/*.profile{
-				width:25px;
-				height: 25px;
-				border-radius: 50%;
-				position: relative;
-				left: 45px;
-			}*/
-
-
-
-			/*.email{
-				font-size: 0.9em;
-				font-weight: lighter;
-				color: #595959;
-
-			}*/
-
-
-
-
-
-
-
-
-		.fa-apple{
-				font-size: 1.3em;
-		}
-
-		.btn-info{
+			.btn-info {
 				background: #03A9F4;
-		}
+			}
 
-		.or{
+			.or {
 				width: 340px;
 				display: flex;
 				justify-content: center;
@@ -152,166 +104,167 @@
 				text-align: center;
 				font-weight: bold;
 				font-size: 1.2em;
-				margin:10px 0;
-		}
+				margin: 10px 0;
+			}
 
-	
 
-		h5{
+
+			h5 {
 				margin-top: 5%;
 				font-weight: 700;
 				font-size: 1.5em;
-		}
+			}
 
-		.login{
+			.login {
 				color: #03A9F4;
 				transition: .5s ease;
-		}
+			}
 
-		.login:hover{
+			.login:hover {
 				background: #e8fbff;
-				color:#03A9F4 ;
+				color: #03A9F4;
 
-		}
+			}
 
 
-		.footer{
+			.footer {
 				display: flex;
 				flex-direction: row;
 				flex-wrap: wrap;
 				padding: 0 50px;
-				justify-content:center;
+				justify-content: center;
 				align-items: center;
 				margin: 0px;
-		}
+			}
 
-		.footer span{
+			.footer span {
 				font-size: 1em;
-				margin:10px;
-		}
+				margin: 10px;
+			}
 
-		.footer span:hover{
+			.footer span:hover {
 
-				text-decoration: underline;			
-		}
+				text-decoration: underline;
+			}
 
-		.close{
+			.close {
 				width: 100px;
 				height: 70px;
 
-		}
+			}
 
 
-		.modal-body{
+			.modal-body {
 				display: flex;
 				flex-direction: column;
 				justify-content: center;
 				align-items: center;
-		}
-		.modal-body h4{
+			}
+
+			.modal-body h4 {
 				text-align: center;
 				font-size: 3em;
 				font-weight: 900;
-		}
+			}
 
-		
 
-		.modal-body .login-google{
+
+			.modal-body .login-google {
 				margin-bottom: 3%;
 
-		}
+			}
 
-			
-		.google{
+
+			.google {
 				width: 20px;
 				height: 20px;
-				margin: auto 0;	
+				margin: auto 0;
 				position: relative;
-				right: 10px;	
-		}
+				right: 10px;
+			}
 
-		.modal-body .apple{
+			.modal-body .apple {
 				margin-bottom: 50px;
-		}
+			}
 
-		.btn-login{
-			background: #292929;
-		}
+			.btn-login {
+				background: #292929;
+			}
 
-			.modal-body .forget{
-			text-align: center;
-		}
-
-		
-		.modal-body .signup{
-			color: #03A9F4;
-		}
-
-		.modal-body input{
-			height: 50px;
-			border-radius: 12px;
-		}
+			.modal-body .forget {
+				text-align: center;
+			}
 
 
+			.modal-body .signup {
+				color: #03A9F4;
+			}
 
-
-
-@media (min-width: 1500px) {
-
-	.col-md-7 .h1{
-		font-size: 7em;
-		
-	}
-}
-
-@media (min-width: 1100px){
-	.col-md-7 .h1{
-		font-size: 5em;
-		width: 100%;
-	}
-}
-		
-@media (min-width:  375px) and (max-width:  982px){
+			.modal-body input {
+				height: 50px;
+				border-radius: 12px;
+			}
 
 
 
 
 
-	img{
-		display: none;
-	}
+			@media (min-width: 1500px) {
 
-	.col-md-7{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		overflow-x: hidden;
-		margin: auto;
-	}
+				.col-md-7 .h1 {
+					font-size: 7em;
 
+				}
+			}
 
-	.col-md-7 .h1{
-		text-align: center;
-		font-size: 4em;
-		font-weight: 900;
-		margin: auto;
-	}
+			@media (min-width: 1100px) {
+				.col-md-7 .h1 {
+					font-size: 5em;
+					width: 100%;
+				}
+			}
 
-	.col-md-7 h3{
-		font-size: 2em;
-		margin: 5% 0;
-	}
-
-	.footer{
-		margin-top: 10%;
-	}
-
-	h4{
-		text-align: center;
-		font-weight: 900;
-		font-size: 2.5em;
-	}
+			@media (min-width: 375px) and (max-width: 982px) {
 
 
-}
+
+
+
+				img {
+					display: none;
+				}
+
+				.col-md-7 {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					overflow-x: hidden;
+					margin: auto;
+				}
+
+
+				.col-md-7 .h1 {
+					text-align: center;
+					font-size: 4em;
+					font-weight: 900;
+					margin: auto;
+				}
+
+				.col-md-7 h3 {
+					font-size: 2em;
+					margin: 5% 0;
+				}
+
+				.footer {
+					margin-top: 10%;
+				}
+
+				h4 {
+					text-align: center;
+					font-weight: 900;
+					font-size: 2.5em;
+				}
+
+
+			}
